@@ -9,23 +9,180 @@
 </head>
 
 <body>
-
+	<!-- header  -->
 	<header>
-		<div id="menu-bar"></div>
-		<div id="header"></div>
+		<div id="header-menu-bar">
+			<div class="container-logo">
+					<img src="" alt="logo" class="logo-img">
+					<p class="logo-txt">elipso</p>
+			</div>
+			<nav>
+				<ul class="nav-list">
+					<li class="nav-item">Home</li>
+					<li class="nav-item">Pages</li>
+					<li class="nav-item">Services</li>
+					<li class="nav-item">Portfolio</li>
+					<li class="nav-item">Blog</li>
+					<li class="nav-item">Contact</li>
+				</ul>
+			</nav>
+		</div>
+		<div id="header-prices">
+			<h1>Our Prices</h1>
+			<p>We help company set up business strategy including design brand identiy or product design service.</p>
+			<button type="button" name="demande-consultations" class="btn">Free consultations</button>
+			<a href="#">View projects</a>
+		</div>
 	</header>
 
+
+	<!-- main -->
 	<main>
-		<div id="price"></div>
-		<div id="testimonial"></div>
-		<div id="services"></div>
-		<div id="community"></div>
+
+		<!-- prices -->
+		<div id="main-price-cont">
+			<section class="main-price-sections">
+				<header>
+					<h2>Basic</h2>
+					<p><strong class="prices">15$</strong></p>
+					<p>Per month</p>
+				</header>
+				<ul>
+					<li>Free updates</li>
+					<li>Custom domain</li>
+					<li>Outstanding support</li>
+					<li>Unlimited storage</li>
+					<li>Build responsive website</li>
+				</ul>
+				<button class="btn">Getting Started</button>
+			</section>
+				<header>
+					<h2>Standard</h2>
+					<p><strong class="prices">37$</strong></p>
+					<p>Per month</p>
+				</header>
+				<ul>
+					<li>Free updates</li>
+					<li>Custom domain</li>
+					<li>Outstanding support</li>
+					<li>Unlimited storage</li>
+					<li>Build responsive website</li>
+				</ul>
+				<button class="btn">Getting Started</button>
+			</section>
+				<header>
+					<h2>Advanced</h2>
+					<p><strong class="prices">42$</strong></p>
+					<p>Per month</p>
+				</header>
+				<ul>
+					<li>Free updates</li>
+					<li>Custom domain</li>
+					<li>Outstanding support</li>
+					<li>Unlimited storage</li>
+					<li>Build responsive website</li>
+				</ul>
+				<button class="btn">Getting Started</button>
+			</section>
+		</div>
+
+		<!-- testimonial  -->
+		<div id="main-testimonial-cont">
+			<section class="section-testimonial">
+				<header>
+					<h2>Happy clients about us</h2>
+					<p>This is the perfect solution for our business. Well-coordinated teamwork and knowledge in the field of our business created the perfect product for the development of the company. We have already seen amazing results.</p>
+				</header>
+				<img src="" alt="">
+				<p class="testimonial-client">Kevin Drives</p>
+				<p>Marketing expert - ReeDip</p>
+			</section>
+		</div>
+
+		<!-- services	-->
+		<div id="main-services-cont">
+			<section class="section-services">
+				<header>
+					<h2>Get a solutions to</h2>
+					<p>Our consultants help address your most challenging issues by providing strategic, financial, operational, and IT services.</p>
+					<button>Order service</button>
+				</header>
+
+				<h3>Audit & Evaluation</h3>
+				<p>Cras risus arcu, sodales ac, ultrices ac, mollis quis, justo. Sed a libero. …</p>
+
+				<h3>Sales & Trade</h3>
+				<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi …</p>
+
+				<h3>Corporate finance</h3>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed …</p>
+
+
+				<h3>Market analysis</h3>
+				<p>Nibh vel velit auctor aliqunean sollicitudinlorem bibendum auci …</p>
+				<p><a href="">Read more</a></p>
+			</section>
+		</div>
+
+		<!-- community -->
+		<div id="main-community-cont">
+			<section>
+				<header>
+					<h2>We serve fine services in creative community</h2>
+					<p>Commodo nulla facilisi nullam vehicula ipsum sociis. Faucibus scelerisque eleifend donec pretium necud vulputate sapien nec, elit eget gravida cum. </p>
+					<button class="btn">Be One of Us</button>
+					<p><a href="">Support projects</a></p>
+				</header>
+				<img src="">
+			</section>
+		</div>
 	</main>
 
+
+	<!-- footer -->
 	<footer>
-		<div id="footer-subscribe"></div>
-		<div id="footer-contacts"></div>
-		<div id="footer-copyright"></div>
+		<!-- plzsub -->
+		<div id="footer-subscribe">
+			<form action="subcribe.php" enctype="application/x-www-form-urlencoded" method="post">
+				<input type="email"  placeholder="Subscribe to our newletter" name="mail" pattern="(.+)@(.+){2,}\.(.+){2,}"  required>
+				<input type="submit" value="Send">
+			</form>
+		</div>
+
+
+		<!-- contacts  -->
+		<div id="footer-contacts">
+
+			<!-- Logo  -->
+			<div class="container-logo">
+				<img src="" alt="logo" class="logo-img">
+				<p class="logo-txt">elipso</p>
+			</div>
+
+			<!-- Contact info -->
+			<h3 class="footer-h3"><span>Contacts Info</span></h3>
+			<address>
+				<p>2 St Gabriel Walk Lo</p>
+  			<a href="mailto:info@merkulov.design">info@merkulov.design</a><br>
+  			<a href="tel:+44 141 552 30008">+44 141 552 3000</a>
+			</address>
+
+			<!-- Links -->
+			<h3 class="footer-h3"><span>Links</span></h3>
+			<ul>
+				<li><a href="#">About Company</a></li>
+				<li><a href="#">Team</a></li>
+				<li><a href="#">Our Services</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">Portfolio</a></li>
+
+			</ul>
+		</div>
+
+		<!-- copyofacopy  -->
+		<div id="footer-copyright">
+			<p>© 2019 <span id="footer-templaters">Elipso Sketch Template<span> by <a href="#">merkulove</a></p>
+		</div>
 	</footer>
 
 </body>

@@ -1,4 +1,4 @@
-/************
+***********
  * FONTES
  */
 
@@ -107,6 +107,10 @@
 	box-sizing: border-box;
 }
 
+header {
+
+}
+
 body {
 	/*nunito 18px reg 27  */
 	font-family: nunito 1.125rem;
@@ -114,15 +118,41 @@ body {
 	text-align: justify;
 }
 
+footer {
+
+}
+
+/* classes */
+.container-logo {}
+.logo-img {}
+.logo-txt {}
+
+.nav-list {}
+.nav-item {}
+.prices
+.btn {}
+.testimonial-client
 
 
+/* id */
+#header-menu-bar {}
+#header-prices {}
 
+#main-price-cont {}
+#main-testimonial-cont {}
+#main-services-cont {}
+#main-community-cont {}
+
+#footer-subscribe {}
+#footer-contacts {}
+#footer-copyright {}
 
 /************
  * FLEX / CONTAINERS
  */
 
 .flex-row {display: flex;}
+.row-reverse {}
 .flex-col {display: flex;	flex-direction: column;}
 .wrap {flex-wrap: wrap;}
 .space-between {justify-content: space-between;}
@@ -154,4 +184,3 @@ body {
 	@media  (min-width: 992px) {}
 	@media  (min-width: 1200px) {}
 
-*/
