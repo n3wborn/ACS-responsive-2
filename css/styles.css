@@ -129,10 +129,10 @@ footer {
 
 .nav-list {}
 .nav-item {}
-.prices
+.prices {}
 .btn {}
-.testimonial-client
-
+.testimonial-client {}
+.footer-title {}
 
 /* id */
 #header-menu-bar {}
@@ -152,7 +152,7 @@ footer {
  */
 
 .flex-row {display: flex;}
-.row-reverse {}
+.row-reverse {flex-direction: row-reverse;}
 .flex-col {display: flex;	flex-direction: column;}
 .wrap {flex-wrap: wrap;}
 .space-between {justify-content: space-between;}
