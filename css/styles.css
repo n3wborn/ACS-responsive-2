@@ -334,6 +334,11 @@ input[type="email"] {
     max-width: 60vw;
 }
 
+.price-sections {
+    flex: 0 30%;
+    margin-bottom: 3%;
+}
+
 #testimonial-cont {
     width: 100vw;
 }
