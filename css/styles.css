@@ -115,11 +115,6 @@ body {
     color: var(--color-txt-primary);
 }
 
-header {
-    margin-left: 20%;
-    margin-bottom: 8%;
-}
-
 h1 {
     font-family: poppins-bold;
     line-height: 3;
@@ -189,6 +184,15 @@ li {
 
 
     /* header */
+
+#header-cont {
+    margin-left: 20%;
+    margin-bottom: 8%;
+    background-image: url("../img/shape.svg");
+    background-position: right 0 top 0%;
+    background-repeat: no-repeat;
+    background-size:  800px;
+}
 
 .container-logo {}
 
