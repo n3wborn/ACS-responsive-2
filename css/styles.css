@@ -196,15 +196,6 @@ li {
 
 .container-logo {}
 
-.logo-img {}
-
-.logo-txt {
-    font-family: nunito-black;
-    line-height: 1.375;
-    letter-spacing: 0.50rem;
-    text-transform: uppercase;
-    color: var(--color-txt-secondary);
-}
 
 .header-nav-list {
     border-top: 1px solid var(--color-border-gris);
