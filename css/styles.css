@@ -169,8 +169,12 @@ li {
     text-align: center;
     font-family: poppins;
     font-size: 1.56rem;         /*25px*/
-    background-image: linear-gradient(to right,#604CDA ,#BA43FC );
+    padding: 20px 30px;
     cursor: pointer;
+    border: 1px solid var(--color-border-gris);
+    border-radius: 40px;
+    background-image: linear-gradient(to right, var(--color-degrade-fonce), var(--color-degrade-clair));
+
 }
 
 
