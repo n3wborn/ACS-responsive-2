@@ -94,6 +94,7 @@
 	--color-degrade-fonce: #604CDA;
 	--color-degrade-clair: #BA43FC;
 	--color-bg-gris: #F6F7FA;
+    --color-border-gris: #707070;
 }
 
 
@@ -193,7 +194,7 @@ li {
 }
 
 .header-nav-list {
-    border-top: 1px solid #707070;
+    border-top: 1px solid var(--color-border-gris);
 }
 
 .header-nav-item {
@@ -204,7 +205,7 @@ li {
 
 .header-nav-item:hover {
     font-family: nunito-bold;
-    color: #554D89;
+    color: var(--color-txt-secondary);
     border: 2px solid;
     border-image: linear-gradient(to right, #604CDA, #BA43FC) 100% 0 0;
 }
@@ -232,9 +233,9 @@ li {
 }
 
 .price-sections {
-    border: 1px solid #707070 ;
+    border: 1px solid var(--color-border-gris) ;
     border-radius: 10px;
-    box-shadow: 20px #E1E4ED;
+    box-shadow: 0 0 20px #E1E4ED;
 }
 .prices--list li:nth-child(n+4) {opacity: 0.8;}
 
@@ -255,14 +256,14 @@ li {
     /* service */
 
 .service-div {
-    border: 1px solid #707070;
+    border: 1px solid var(--color-border-gris);
     border-radius: 10px;
     box-shadow: 20px #E1E4ED;
 }
 
 .service-div:hover {
     background-image: linear-gradient(to top right, #604CDA, #BA43FC);
-    box-shadow: 20px #6852ED;
+    box-shadow: 20px var(--color-bleu);
 }
 
 .service-div:hover * {color: white;}
@@ -275,9 +276,9 @@ li {
     /* footer */
 
 #footer-subscribe {
-    border: 1px solid #707070;
+    border: 1px solid var(--color-border-gris);
     border-radius: 10px;
-    background-color: #6852ED;
+    background-color: var(--color-bleu);
 }
 
 .footer-title {
