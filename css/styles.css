@@ -139,9 +139,7 @@ a {
     color: var(--color-txt-secondary);
 }
 
-li {
-    list-style: none;
-}
+li {list-style: none;}
 
 /************
  * CLASSES
@@ -174,7 +172,6 @@ li {
     border: 1px solid var(--color-border-gris);
     border-radius: 40px;
     background-image: linear-gradient(to right, var(--color-degrade-fonce), var(--color-degrade-clair));
-
 }
 
 
@@ -192,10 +189,15 @@ li {
     background-position: right 0 top 0%;
     background-repeat: no-repeat;
     background-size:  800px;
+    height: 23% ;
 }
 
-.container-logo {}
 
+#header-menu-bar {margin-right: 46%;}
+
+#header-logo-container {flex: 0 25%;}
+
+#header-nav-cont {flex: 0 75%;}
 
 .header-nav-list {
     border-top: 1px solid var(--color-border-gris);
@@ -205,6 +207,7 @@ li {
     font-family: nunito;
     line-height: 1.31;
     color: var(--color-txt-primary);
+    padding-top: 44px;
 }
 
 .header-nav-item:hover {
@@ -212,6 +215,8 @@ li {
     color: var(--color-txt-secondary);
     border: 2px solid;
     border-image: linear-gradient(to right, #604CDA, #BA43FC) 100% 0 0;
+    /* evite de faire grossir le conteneur */
+    padding-top: 40px;
 }
 
 
@@ -246,9 +251,7 @@ li {
 
     /* testimonial */
 
-#testimonial-cont {
-    background-color: var(--color-bg-gris);
-}
+#testimonial-cont {background-color: var(--color-bg-gris);}
 
 .testimonial-client {
     font-family: poppins-bold;
@@ -315,9 +318,7 @@ input[type="email"] {
     opacity: 0.70;
 }
 
-.links-list-items:hover a {
-    color: var(--color-accent);
-}
+.links-list-items:hover a {color: var(--color-accent);}
 
 
 /************
@@ -327,11 +328,14 @@ input[type="email"] {
 
 .flex-row {display: flex;}
 .row-reverse {flex-direction: row-reverse;}
-.flex-col {display: flex;	flex-direction: column;}
+.flex-col {display: flex; flex-direction: column;}
 .wrap {flex-wrap: wrap;}
 .space-between {justify-content: space-between;}
+.space-around {justify-content: space-around;}
 .justify-content-center {justify-content: center;}
+.justify-content-end {justify-content: flex-end;}
 .align-items-center {align-items: center;}
+.align-items-end {align-items: flex-end;}
 
 .center-container {
     margin: auto;
@@ -343,9 +347,7 @@ input[type="email"] {
     margin-bottom: 3%;
 }
 
-#testimonial-cont {
-    width: 100vw;
-}
+#testimonial-cont {width: 100vw;}
 
 .section-testimonial {
     width: 40vw;
