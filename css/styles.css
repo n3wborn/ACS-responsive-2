@@ -235,7 +235,7 @@ li {
 .price-sections {
     border: 1px solid var(--color-border-gris) ;
     border-radius: 10px;
-    box-shadow: 0 0 20px #E1E4ED;
+    box-shadow: 0 0 20px var(--color-bg-gris);
 }
 .prices--list li:nth-child(n+4) {opacity: 0.8;}
 
@@ -258,7 +258,7 @@ li {
 .service-div {
     border: 1px solid var(--color-border-gris);
     border-radius: 10px;
-    box-shadow: 20px #E1E4ED;
+    box-shadow: 20px var(--color-bg-gris);
 }
 
 .service-div:hover {
