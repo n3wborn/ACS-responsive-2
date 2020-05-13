@@ -288,8 +288,10 @@ li {
 }
 
 #subscribe-btn {
-    border: 3px solid #707070;
+    border: 3px solid var(--color-border-gris);
     border-radius: 40px;
+    background-color: transparent;
+    padding: 13px 30px;
 }
 
 input[type="submit"] {
