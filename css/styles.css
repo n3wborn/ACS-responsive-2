@@ -115,6 +115,11 @@ body {
     color: var(--color-txt-primary);
 }
 
+header {
+    margin-left: 20%;
+    margin-bottom: 8%;
+}
+
 h1 {
     font-family: poppins-bold;
     line-height: 3;
