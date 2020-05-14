@@ -103,12 +103,12 @@
  */
 
 * {
-	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
 }
 
 body {
+    margin: 0px;
     font-family: nunito;
     font-size: 1.125rem;        /*18px*/
     line-height: 1.69;
@@ -193,6 +193,8 @@ li {list-style: none;}
 }
 
 #header-menu-bar {margin-right: 46%; flex: 0 70px;}
+
+#header-menu-bar *{margin:0}
 
 #header-logo-container {flex: 0 25%;}
 
