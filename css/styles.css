@@ -192,7 +192,6 @@ li {list-style: none;}
     height: 860px;
 }
 
-
 #header-menu-bar {margin-right: 46%; flex: 0 70px;}
 
 #header-logo-container {flex: 0 25%;}
@@ -214,6 +213,12 @@ li {list-style: none;}
     border: 2px solid;
     border-image: linear-gradient(to right, #604CDA, #BA43FC) 100% 0 0;
     padding-top: 45px;
+}
+
+#header-prices {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 22vw;
 }
 
 
