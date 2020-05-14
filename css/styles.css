@@ -222,6 +222,10 @@ li {list-style: none;}
     width: 22vw;
 }
 
+/* fixe le bouton Free Consultation*/
+#header-prices div:nth-child(3) {
+    margin-top: 20px;
+}
 
     /* offres-prix */
 
@@ -349,6 +353,7 @@ input[type="email"] {
 .justify-content-end {justify-content: flex-end;}
 .align-items-center {align-items: center;}
 .align-items-end {align-items: flex-end;}
+
 
 .center-container {
     margin: auto;
