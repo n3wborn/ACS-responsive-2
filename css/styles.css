@@ -179,7 +179,7 @@ li {list-style: none;}
  */
 
 
-    /* header */
+    /*** header ***/
 
 #header-cont {
     margin-left: 20%;
@@ -192,11 +192,8 @@ li {list-style: none;}
 }
 
 #header-menu-bar {margin-right: 46%; flex: 0 70px;}
-
-#header-menu-bar *{margin:0}
-
+#header-menu-bar * {margin:0}
 #header-logo-container {flex: 0 25%;}
-
 #header-nav-cont {flex: 0 75%;}
 
 .header-nav-list {border-top: 1px solid var(--color-border-gris);}
@@ -227,7 +224,9 @@ li {list-style: none;}
     margin-top: 20px;
 }
 
-    /* offres-prix */
+
+
+    /*** offres prix ***/
 
 .price-sections {
     border: 1px solid var(--color-border-gris) ;
@@ -241,25 +240,27 @@ li {list-style: none;}
     color: var(--color-txt-secondary);
     font-family: poppins-bold;
     font-size: 1.25rem;         /*18px*/
-    line-height: 1.875;
+ /*   line-height: 1.875;*/
 }
 
 .prices {
     font-family: poppins-bold;
     font-size: 3.125rem;        /*50px*/
-    line-height: 3.75;
+    /*line-height: 3.75;*/
     color: var(--color-txt-secondary);
 }
 
 .prices-p {
     font-size: 1.375rem;        /*22px*/
-    line-height: 2.06;
+    /*line-height: 2.06;*/
 }
 
 .prices--list li:nth-child(n+4) {opacity: 0.8;}
 
 
-    /* testimonial */
+
+
+    /*** testimonial ***/
 
 #testimonial-cont {
     width: 100vw;
@@ -277,7 +278,9 @@ li {list-style: none;}
 }
 
 
-    /* service */
+
+
+    /*** service ***/
 
 .service-div {
     border: 1px solid var(--color-border-gris);
@@ -293,11 +296,15 @@ li {list-style: none;}
 .service-div:hover * {color: white;}
 
 
-    /* community */
+
+
+    /*** community ***/
 
 
 
-    /* footer */
+
+
+    /*** footer ***/
 
 #footer-subscribe {
     border: 1px solid var(--color-border-gris);
@@ -308,7 +315,7 @@ li {list-style: none;}
 .footer-title {
     font-family: poppins-bold;
     font-size: 1.25rem;
-    line-height: 1.5;
+/*    line-height: 1.5;*/
     color: var(--color-txt-secondary);
 }
 
