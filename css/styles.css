@@ -166,7 +166,7 @@ li {list-style: none;}
     text-align: center;
     font-family: poppins;
     font-size: 1.56rem;         /*25px*/
-    padding: 20px 30px;
+    padding: 15px 25px;
     cursor: pointer;
     border: 1px solid var(--color-border-gris);
     border-radius: 40px;
@@ -354,12 +354,9 @@ li {list-style: none;}
     /*** community ***/
 
 #community-cont {margin-bottom: 120px;}
-
-#community-div {
-    flex: 0 50%;
-}
-
+#community-div {flex: 0 50%;}
 #community-div header {margin: 70px 0px 80px 70px;}
+#community-btn {margin-right: 30px;}
 
 #support-img {
     flex: 0 50%;
@@ -371,24 +368,44 @@ li {list-style: none;}
     border-radius: 237px 237px 237px 80px;
 }
 
-#community-btn {margin-right: 30px;}
 
     /*** footer ***/
 
 #footer-subscribe {
+    margin-bottom: 100px;
     border: 1px solid var(--color-border-gris);
     border-radius: 10px;
     background-color: var(--color-bleu);
 }
 
+#footer-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* placeholder */
+#footer-form input:first-child {
+    margin-left: 5.2rem;
+    background-color: var(--color-bleu);
+    border: hidden;
+    border-radius: 10px;
+}
+
+/* bouton Send */
+#footer-form input:nth-child(2) {margin-right: 1.875rem;}
+
+
 .footer-title {
     font-family: poppins-bold;
     font-size: 1.25rem;
-/*    line-height: 1.5;*/
     color: var(--color-txt-secondary);
 }
 
 #subscribe-btn {
+    flex: 0 12%;
     border: 3px solid var(--color-border-gris);
     border-radius: 40px;
     background-color: transparent;
@@ -429,7 +446,6 @@ input[type="email"] {
 .justify-content-end {justify-content: flex-end;}
 .align-items-center {align-items: center;}
 .align-items-end {align-items: flex-end;}
-
 
 .center-container {
     margin: auto;
