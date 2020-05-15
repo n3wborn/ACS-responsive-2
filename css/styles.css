@@ -304,19 +304,48 @@ li {list-style: none;}
 
     /*** service ***/
 
+#services-cont {margin: 120px auto;}
+
+#services-div-col1 {padding-left: 50px;}
+
+/* divise la largeur en 3 */
+.services-div-col {flex-basis: 33.33%;}
+
 .service-div {
+    margin: 10px;
+    padding-left: 30px;
+    min-height: 300px; /* eviter les effets de bord de flex  */
     border: 1px solid var(--color-border-gris);
     border-radius: 10px;
     box-shadow: 20px var(--color-bg-gris);
 }
 
+/* justifie les paragraphes */
+.service-div p {
+    text-align: justify;
+    margin-right: 30px;
+}
+
+/* supprime la marge sous le titre */
+.service-div h3 {
+    margin-top: 95px;
+    margin-bottom: 0px;
+}
+
+ /*lors du survol remet la marge normale au-dessus du titre */
+.service-div:hover h3 {
+    margin-top: 45px;
+    margin-bottom: 0px;
+}
+
+/* lors du survol change bg de couleur */
 .service-div:hover {
     background-image: linear-gradient(to top right, #604CDA, #BA43FC);
     box-shadow: 20px var(--color-bleu);
 }
 
+/* et adapte la couleur du texte */
 .service-div:hover * {color: white;}
-
 
 
 
@@ -373,7 +402,7 @@ input[type="email"] {
  */
 
 .flex-row {display: flex;}
-.row-reverse {flex-direction: row-reverse;}
+.row-reverse {display: flex; flex-direction: row-reverse;}
 .flex-col {display: flex; flex-direction: column;}
 .wrap {flex-wrap: wrap;}
 .space-between {justify-content: space-between;}
