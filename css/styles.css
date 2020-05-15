@@ -344,9 +344,11 @@ li {list-style: none;}
     box-shadow: 20px var(--color-bleu);
 }
 
+/* "cache" le lien read more -- visibility pose problème */
+.services-read-more-link a {color: white}
+
 /* et adapte la couleur du texte */
 .service-div:hover * {color: white;}
-
 
 
     /*** community ***/
