@@ -191,12 +191,12 @@ li {list-style: none;}
     height: 860px;
 }
 
-#header-menu-bar {margin-right: 46%; flex: 0 70px;}
+#header-menu-bar {height: 70px; margin-right: 46%; flex: 0 70px;}
 #header-menu-bar * {margin:0}
-#header-logo-container {flex: 0 25%;}
+#header-logo-container {padding-top: 20px; height: 70px; flex: 0 25%;}
 #header-nav-cont {flex: 0 75%;}
 
-.header-nav-list {border-top: 1px solid var(--color-border-gris);}
+.header-nav-list {border-top: 1px solid transparent;}
 
 .header-nav-item {
     font-family: nunito;
