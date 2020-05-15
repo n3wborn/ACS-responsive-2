@@ -278,9 +278,19 @@ li {list-style: none;}
 #testimonial-cont * {
     text-align:  center;
 }
+
 .section-testimonial {
     width: 40vw;
     margin: auto;
+}
+
+#testimonial-div-photo {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 50%;
+    background-image: url(../img/sam.jpg);
+    background-size: contain;
 }
 
 .testimonial-client {
