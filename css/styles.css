@@ -270,8 +270,14 @@ li {list-style: none;}
 
 #testimonial-cont {
     width: 100vw;
-    background-color: var(--color-bg-gris);}
+    background-color: var(--color-bg-gris);
+    padding-top: 100px;
+    padding-bottom: 76px;
+}
 
+#testimonial-cont * {
+    text-align:  center;
+}
 .section-testimonial {
     width: 40vw;
     margin: auto;
