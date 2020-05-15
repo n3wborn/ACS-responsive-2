@@ -353,9 +353,25 @@ li {list-style: none;}
 
     /*** community ***/
 
+#community-cont {margin-bottom: 120px;}
 
+#community-div {
+    flex: 0 50%;
+}
 
+#community-div header {margin: 70px 0px 80px 70px;}
 
+#support-img {
+    flex: 0 50%;
+    height: 475px;
+    width: 650px;
+    background-image: url(../img/community.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 237px 237px 237px 80px;
+}
+
+#community-btn {margin-right: 30px;}
 
     /*** footer ***/
 
