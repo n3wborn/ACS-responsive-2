@@ -373,7 +373,7 @@ li {list-style: none;}
 }
 
 
-    /*** footer ***/
+    /*** footer - subscribe ***/
 
 #footer-subscribe {
     margin-bottom: 100px;
@@ -436,6 +436,21 @@ input[type="email"] {
 .links-list-items:hover a {color: var(--color-accent);}
 
 
+    /*** footer - contacts ***/
+
+#footer-container-logo {width: 360px;}
+#footer-container-contacts {width:270px; margin-bottom: 40px;}
+#footer-container-links {width: 260px;margin-right: 110px;}
+
+.footer-title {margin: 0px auto 1.875rem 0px;}
+.links-list-items {margin-bottom: 0.8125rem;}
+
+#footer-container-contacts address {
+    padding-left: 1.375rem;
+    padding-right: 4.6875rem;
+}
+
+
 /************
  * FLEX &
  * CONTAINERS
@@ -451,14 +466,14 @@ input[type="email"] {
 .justify-content-end {justify-content: flex-end;}
 .align-items-center {align-items: center;}
 .align-items-end {align-items: flex-end;}
-
-.center-container {
-    margin: auto;
-    max-width: 60vw;
-}
+.flex-75prct {flex: 0 75%;}
+.flex-25prct {flex: 0 25%;}
+.center-container {margin: auto; max-width: 60vw;}
 
 .m-left-60 {margin-left: 60px;}
 .p-left-60 {padding-left: 3.125vw;}
+.txt-align-right {text-align: right;}
+
 
 /************
  * RESPONSIVE
