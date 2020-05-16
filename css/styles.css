@@ -409,16 +409,17 @@ li {list-style: none;}
 }
 
 #subscribe-btn {
-    flex: 0 12%;
+    flex: 0 10%;
     border: 3px solid var(--color-border-gris);
     border-radius: 40px;
     background-color: transparent;
-    padding: 13px 30px;
+    padding: 5px 10px;
 }
 
 input[type="submit"] {
+    flex: 0 100px;
     font-family: poppins;
-    font-size: 1.375rem;
+    font-size: 1rem;
     line-height: 1.56;
     letter-spacing: 2;
     color: white;
