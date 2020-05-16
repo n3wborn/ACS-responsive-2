@@ -81,6 +81,7 @@
 }
 
 
+
 /************
  * COULEURS
  */
@@ -96,6 +97,7 @@
 	--color-bg-gris: #F6F7FA;
     --color-border-gris: #707070;
 }
+
 
 
 /************
@@ -141,6 +143,8 @@ a {
 
 li {list-style: none;}
 
+
+
 /************
  * CLASSES
  * GENERIQUES
@@ -161,6 +165,9 @@ li {list-style: none;}
 }
 
 .txt-center {text-align: center;}
+.txt-align-right {text-align: right;}
+.m-left-60 {margin-left: 60px;}
+.p-left-60 {padding-left: 3.125vw;}
 
 .btn  {
     color: white;
@@ -175,12 +182,14 @@ li {list-style: none;}
 }
 
 
+
 /************
- * K PAR K
+ * STRUCTURE
  */
 
 
-    /*** header ***/
+    /*** HEADER ***/
+
 
 #header-cont {
     margin-left: 20%;
@@ -228,14 +237,9 @@ li {list-style: none;}
 
 #prices-links-div {margin-top:40px;}
 
-/* fixe le bouton Free Consultation*/
-/*#header-prices div:nth-child(3) {
-    margin-top: 20px;
-}
-*/
 
+    /*** OFFRES PRIX***/
 
-    /*** offres prix ***/
 
 .price-sections {
     border: 1px solid var(--color-border-gris) ;
@@ -248,29 +252,28 @@ li {list-style: none;}
 .price-title{
     color: var(--color-txt-secondary);
     font-family: poppins-bold;
-    font-size: 1.25rem;         /*18px*/
- /*   line-height: 1.875;*/
+    font-size: 1.25rem;
 }
 
 .prices {
     font-family: poppins-bold;
-    font-size: 3.125rem;        /*50px*/
+    font-size: 3.125rem;
     margin-top: 20px;
     margin-bottom: 20px;
     /*line-height: 3.75;*/
     color: var(--color-txt-secondary);
 }
 
-
 .prices--list {padding:60px 4.68vw;}
 .prices--list li:nth-child(n+4) {opacity: 0.8;}
-
 
 .btn-getting-started {
     margin: 50px 0px 60px 60px;
 }
 
-    /*** testimonial ***/
+
+    /*** TESTIMONIAL ***/
+
 
 #testimonial-cont {
     width: 100vw;
@@ -304,15 +307,10 @@ li {list-style: none;}
 }
 
 
-
-
-    /*** service ***/
+    /*** SERVICES ***/
 
 #services-cont {margin: 120px auto;}
-
 #services-div-col1 {padding-left: 50px;}
-
-/* divise la largeur en 3 */
 .services-div-col {flex-basis: 33.33%;}
 
 .service-div {
@@ -355,7 +353,7 @@ li {list-style: none;}
 .service-div:hover * {color: white;}
 
 
-    /*** community ***/
+    /*** COMMUNITY ***/
 
 #community-cont {margin-bottom: 120px;}
 #community-div {flex: 0 50%;}
@@ -373,7 +371,8 @@ li {list-style: none;}
 }
 
 
-    /*** footer - subscribe ***/
+    /*** FOOTER - SUBSCRIBE ***/
+
 
 #footer-subscribe {
     margin-bottom: 100px;
@@ -436,7 +435,8 @@ input[type="email"] {
 .links-list-items:hover a {color: var(--color-accent);}
 
 
-    /*** footer - contacts ***/
+    /*** FOOTER - CONTACTS ***/
+
 
 #footer-container-logo {width: 360px;}
 #footer-container-contacts {width:270px; margin-bottom: 40px;}
@@ -456,6 +456,7 @@ input[type="email"] {
  * CONTAINERS
  */
 
+
 .flex-row {display: flex;}
 .row-reverse {display: flex; flex-direction: row-reverse;}
 .flex-col {display: flex; flex-direction: column;}
@@ -469,10 +470,6 @@ input[type="email"] {
 .flex-75prct {flex: 0 75%;}
 .flex-25prct {flex: 0 25%;}
 .center-container {margin: auto; max-width: 60vw;}
-
-.m-left-60 {margin-left: 60px;}
-.p-left-60 {padding-left: 3.125vw;}
-.txt-align-right {text-align: right;}
 
 
 /************
