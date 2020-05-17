@@ -192,20 +192,16 @@ li {list-style: none;}
 
 
 #header-cont {
-    /*change pour adapter sur bav-bar*/
-    /*margin-left: 20%;*/
     background-image: url("../img/shape.svg");
     background-position: right 0 top 0%;
     background-repeat: no-repeat;
-    background-size: auto390/1420;
-    background-size:  800px;
+    background-size: auto;
     height: 860px;
 }
 
 #header-menu-bar {
     margin-left:27vw;
     margin-right: 40vw;
-    /*min-width: 592px;*/
     height: 70px;
     flex: 0 70px;}
 #header-menu-bar * {margin:0}
@@ -485,15 +481,37 @@ input[type="email"] {
  */
 
 
-/* Breakpoints en min-width */
-@media (max-width: 1500px) {
-    #header-cont {
-
-    }
-}
+/* Breakpoints en max-width */
+@media (max-width: 1500px) {}
 @media (max-width:  1199.98px) {}
 @media (max-width:  991.98px) {}
-@media  (max-width: 575.98px) {}
+@media  (max-width: 575.98px) {
+
+    /* header */
+    #header-cont {height: 450px;}
+    #header-menu-bar {
+        margin-left: 5vw;
+        margin-right: 5vw;
+        flex-wrap: wrap;
+    }
+    #header-logo-container {
+        flex: 0 100%;
+        margin: 15px;
+        padding:0px;
+        height:50px; }
+    #header-nav-cont {flex: 100%;}
+    .header-nav-item {margin: 5px; padding: 5px;}
+    .header-nav-item {padding: 5px; /*border: 2px transparent;*/}
+    .header-nav-item:hover {padding-top: 0px;}
+    #header-prices {
+        margin: 30px 5vw;
+        max-width: 95%;
+        align-items: stretch;
+    }
+
+    /**/
+}
+}
 
 
 
