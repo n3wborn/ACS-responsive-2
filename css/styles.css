@@ -546,7 +546,9 @@ input[type="email"] {
         border-radius: 30px;
     }
 
-
+    /* footer subscribe */
+    #footer-cont {margin-top: 15px; margin-bottom: 15px;}
+    #footer-form input:first-child {padding-left: 15px;}
 }
 
 
