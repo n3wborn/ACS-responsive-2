@@ -535,6 +535,18 @@ input[type="email"] {
     .services-div-col {padding: 5px 5px;flex: 0 100%;}
     #services-div-col1 {padding-left: 5px 5px;}
     .center-container {max-width: 95%;}
+
+    /* community */
+    #community-cont {margin: 15px;}
+    #community-div {flex: 1 100%;}
+    #community-div header {margin:0px 5px 15px 5px;}
+    #support-img {
+        flex: 1 100%;
+        margin: 5px;
+        border-radius: 30px;
+    }
+
+
 }
 
 
