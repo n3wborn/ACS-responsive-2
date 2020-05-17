@@ -192,15 +192,22 @@ li {list-style: none;}
 
 
 #header-cont {
-    margin-left: 20%;
+    /*change pour adapter sur bav-bar*/
+    /*margin-left: 20%;*/
     background-image: url("../img/shape.svg");
     background-position: right 0 top 0%;
     background-repeat: no-repeat;
+    background-size: auto390/1420;
     background-size:  800px;
     height: 860px;
 }
 
-#header-menu-bar {height: 70px; margin-right: 46%; flex: 0 70px;}
+#header-menu-bar {
+    margin-left:27vw;
+    margin-right: 40vw;
+    /*min-width: 592px;*/
+    height: 70px;
+    flex: 0 70px;}
 #header-menu-bar * {margin:0}
 #header-logo-container {padding-top: 20px; height: 70px; flex: 0 25%;}
 #header-nav-cont {flex: 0 75%;}
@@ -225,6 +232,7 @@ li {list-style: none;}
 
 
 #header-prices {
+    margin-left: 27vw;
     margin-top: 250px;
     max-width: 22vw;
     margin-bottom: auto;
@@ -438,9 +446,9 @@ input[type="email"] {
     /*** FOOTER - CONTACTS ***/
 
 
-#footer-container-logo {width: 360px;}
-#footer-container-contacts {width:270px; margin-bottom: 40px;}
-#footer-container-links {width: 260px;margin-right: 110px;}
+#footer-container-logo {min-wwidth: 360px;}
+#footer-container-contacts {wmin-idth:270px; margin-bottom: 40px;}
+#footer-container-links {min-width: 260px;margin-right: 110px;}
 
 .footer-title {margin: 0px auto 1.875rem 0px;}
 .links-list-items {margin-bottom: 0.8125rem;}
@@ -478,6 +486,11 @@ input[type="email"] {
 
 
 /* Breakpoints en min-width */
+@media (max-width: 1500px) {
+    #header-cont {
+
+    }
+}
 @media (max-width:  1199.98px) {}
 @media (max-width:  991.98px) {}
 @media  (max-width: 575.98px) {}
