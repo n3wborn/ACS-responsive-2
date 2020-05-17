@@ -483,19 +483,155 @@ input[type="email"] {
 
 /* Breakpoints en max-width */
 @media (max-width: 1500px) {}
-@media (max-width:  1199.98px) {}
-@media (max-width:  991.98px) {}
+@media (max-width:  1199.98px) {
+
+    #header-cont {height: unset;}
+    #header-menu-bar {
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 70px;
+        flex: 0 70px;
+    }
+
+    #header-prices {
+        margin-left: 20%;
+        margin-top: 100px;
+        max-width: 30vw;
+        margin-bottom: auto;
+    }
+
+    .price-sections {
+        margin:10px;
+    }
+
+    #price-cont {
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
+    .center-container {
+        margin: 5%;
+    }
+
+    .price-sections {height: unset; width:350px;}
+
+    .btn-getting-started {
+        padding-left: 5px 10px;
+    }
+
+    .prices--list {
+        padding: 15px 20px;
+    }
+
+    #services-div-col1 {
+        padding-left: 10px;
+    }
+
+    #support-img {
+        flex: 1 50%;
+        height: 475px;
+        width: 650px;
+        background-image: url(../img/community.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 50px;
+    }
+
+    #community-cont {
+        min-width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #community-section {
+        flex-wrap: wrap;
+        width: 80%;
+    }
+
+    #footer-cont {
+        width: 100%;
+    }
+    .center-container {
+        max-width: 80%;
+    }
+}
+
+
+@media (min-width:  576px) and (max-width:768px) {
+    #header-cont {height: unset; margin-bottom: 30px;}
+    #header-menu-bar {
+        margin-left: unset;
+        margin-right: unset;
+    }
+
+    #header-prices {
+        margin-top: 50px;
+        margin-left: 5%;
+        margin-right: 5%;
+        max-width: 90%;
+    }
+
+    .center-container {
+        margin: auto;
+        max-width: 80%;
+    }
+
+    #price-cont {margin: 60px auto;}
+
+    .price-sections {
+        border-radius: 10px;
+        flex: 100%;
+        margin-bottom: 15px;
+        padding-left: 15%;
+    }
+
+    #testimonial-cont {padding: 20px 0px;}
+
+    .section-testimonial {
+        width: 80%;
+        margin: auto;
+    }
+
+    .section-services {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .services-div-col {padding: 5%;}
+
+    #community-div, #support-img {
+        flex: 100%;
+        padding: 5px;
+    }
+
+    #support-img {
+        margin: 15px 0px;
+        border-radius: 30px;
+    }
+
+    #community-div header {margin: 0px;}
+    #community-cont {margin-bottom: 50px;}
+    #footer-subscribe {margin: 30px 0px;}
+    address * {padding: 0 1.5rem;}
+
+    #footer-container-links {
+       width: 100%;
+    }
+}
 
 @media  (max-width: 575.98px) {
 
-
     /* header */
     #header-cont {height: unset;}
+
     #header-menu-bar {
-        margin-left: 5vw;
-        margin-right: 5vw;
-        flex-wrap: wrap;
+        margin-left: 5px;
+        margin-right: 5px;
+        flex-wrap: nowrap;
     }
+
     #header-logo-container {
         flex: 0 100%;
         margin: 15px;
