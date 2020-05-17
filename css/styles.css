@@ -511,7 +511,7 @@ input[type="email"] {
 
     /* price container */
 
-    #price-cont {margin-top: 40px;}
+    #price-cont {margin: 40px auto;}
     .price-sections  {
         height: unset;
         flex: 100%;
@@ -523,6 +523,10 @@ input[type="email"] {
         margin:0px 60px 20px 60px;
         padding:5px 15px;
     }
+
+    /* testimonial */
+    #testimonial-cont {padding: 50px 0px;}
+    .section-testimonial {width: 95%;}
 }
 
 
