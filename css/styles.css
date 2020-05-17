@@ -485,6 +485,7 @@ input[type="email"] {
 @media (max-width: 1500px) {}
 @media (max-width:  1199.98px) {}
 @media (max-width:  991.98px) {}
+
 @media  (max-width: 575.98px) {
 
     /* header */
@@ -527,6 +528,13 @@ input[type="email"] {
     /* testimonial */
     #testimonial-cont {padding: 50px 0px;}
     .section-testimonial {width: 95%;}
+
+    /* services */
+    #services-cont {margin: 40px 5px;}
+    .section-services {flex-wrap: wrap;}
+    .services-div-col {padding: 5px 5px;flex: 0 100%;}
+    #services-div-col1 {padding-left: 5px 5px;}
+    .center-container {max-width: 95%;}
 }
 
 
