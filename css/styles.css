@@ -488,7 +488,7 @@ input[type="email"] {
 @media  (max-width: 575.98px) {
 
     /* header */
-    #header-cont {height: 450px;}
+    #header-cont {height: unset;}
     #header-menu-bar {
         margin-left: 5vw;
         margin-right: 5vw;
@@ -509,8 +509,20 @@ input[type="email"] {
         align-items: stretch;
     }
 
-    /**/
-}
+    /* price container */
+
+    #price-cont {margin-top: 40px;}
+    .price-sections  {
+        height: unset;
+        flex: 100%;
+        margin: 15px;
+    }
+    .prices--list {padding:15px 50px;}
+    .btn {padding: 5px 15px;}
+    .btn-getting-started {
+        margin:0px 60px 20px 60px;
+        padding:5px 15px;
+    }
 }
 
 
